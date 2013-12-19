@@ -41,9 +41,9 @@ for c in range (0,20):
 list1 = []
 for c in range (3,20):
   for r in range (0,17):
-		x = c 
-		for y in xrange(r,r+4):
-			list1.append(grid[y][x])
-			x -=1
-		print list1,"Forward Diagonal"
-		list1 = []
+	x = c 
+	for y in xrange(r,r+4):
+		list1.append(grid[y][x])
+		x -=1
+	print list1,"Forward Diagonal"
+	list1 = []
